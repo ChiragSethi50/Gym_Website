@@ -1,0 +1,63 @@
+.email{
+    display: flex;
+    padding: 0 2rem;
+    gap: 10rem;
+}
+.left-e{
+    color: aliceblue;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+.left-e>hr{
+    position: absolute;
+    width: 10.5rem;
+    border: 2px solid var(--red);
+    border-radius: 20%;
+    margin-top: -10px;
+    animation: alternate;
+
+}
+.emails{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    background-color: gray;
+    padding: 1rem 2rem;
+    left: 9rem;
+}
+.emails>input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--lightgray);
+}
+::placeholder{
+    color: var(--lightgray)
+}
+.email-btn{
+    background-color: var(--red);
+    color: aliceblue;
+}
+.label{
+    color: aliceblue;
+    gap: 1rem;
+}
+
+@media screen and (max-width:768px) {
+    
+    .email{
+       flex-direction: column;
+       gap: 1rem;
+    }
+    .left-e{
+        font-size: x-large;
+        flex-direction: column;
+
+    }
+    .right-e{
+        padding: 2rem;
+    }
+}

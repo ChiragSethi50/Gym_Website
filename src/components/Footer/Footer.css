@@ -1,0 +1,54 @@
+.footer{
+    position: relative;
+
+}
+.footer>hr{
+    color: aliceblue;
+    border: 1px solid var(--lightgray)
+}
+.links{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+}
+.footer-img{
+    display: flex;
+    gap: 4rem;
+}
+.footer-img>a>button{
+    width: 3rem;
+    height: 3rem;
+    background: none;
+    border: none;
+}
+.footer-img>a>button>img{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+.logo-f>img{
+    width: 10rem;
+
+}
+.blur-f1{
+    bottom: 0rem;
+    right: 15%;
+    width: 26rem;
+    height: 12rem;
+    filter: blur(140px);
+    background: rgb(246, 49, 118);
+
+}
+.blur-f2{
+    bottom: 0rem;
+    left: 15%;
+    width: 26rem;
+    height: 12rem;
+    filter: blur(140px);
+    background: rgb(245, 40, 105);
+
+}
