@@ -11,6 +11,8 @@
     flex-direction: row;
     gap: 2rem;
     color: aliceblue;
+    font-size: 3rem;
+    justify-content: center;
 }
 .plan-card{
     display: flex;
