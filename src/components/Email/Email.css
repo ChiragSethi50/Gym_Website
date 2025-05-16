@@ -1,7 +1,10 @@
 .email{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     padding: 0 2rem;
-    gap: 10rem;
+    gap: 12rem;
 }
 .left-e{
     color: aliceblue;
@@ -23,10 +26,10 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 1.5rem;
     background-color: gray;
-    padding: 1rem 2rem;
-    left: 9rem;
+    padding: 2rem 2rem;
+    right: 3rem;
 }
 .emails>input{
     background-color: transparent;
